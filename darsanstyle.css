@@ -1,0 +1,190 @@
+<style>
+*{
+	box-sizing: border-box;
+}
+	h1{
+		font-family: Tahoma, sans-serif;
+		color: white;
+		margin-left: 25px;
+		padding-top: 10px;
+	}
+
+	p{
+		font-family: 'Brush Script MT', cursive;
+		font-size: 50px;
+		margin-left: 0px;
+	}
+
+	h2{
+		font-family: 'Brush Script MT', cursive;
+		font-size: 50px;
+		color: black;
+		margin-left: 35%;
+	}
+
+	body{
+		background-image: url(darsan_background_pic1.jpg);
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-size: 100%;
+		background-height: 100%;
+	}
+
+
+/*containers*/
+
+	.container-2{
+		width: 550px;
+		height: 0px;
+	}
+
+/* end containers */
+
+/*site-nav*/
+
+	.site-nav{
+		margin-left: 62%;
+	}
+
+	.site-nav li{
+		list-style: none;
+		float: left;
+
+		margin-bottom: 15px;
+		margin-right: 5px;
+		margin-left: 5px;	
+	}
+
+	.site-nav a{
+		display: block;
+		text-decoration: none;
+		color: white;
+		padding: 10px 15px;
+		border: 3px solid white;
+	}
+
+	.site-nav a:hover{
+		background-color: white;
+		color: black;
+	}
+
+	.site-nav a:active{
+		background-color: white;
+		color: black;
+	}
+
+	.nav{
+		margin-left: 7px;
+	}
+
+/* end site-nav */
+
+/*The Classic Collection*/
+
+	.text{
+		background-color: white;
+		width: 100%;
+		height: 100%;
+	}
+
+/* end The Classic Collection */
+
+/* dropdown */
+	
+	.dropbtn {
+	  background-color: white;
+	  color: black;
+	  min-width: 150px;
+	  min-height: 30px;
+	  font-size: 16px;
+	  border: none;
+	}
+
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	  margin-left: 10px;
+	  padding-top: 0%;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: white;
+	  min-width: 175px;
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  margin-left: 5%;
+	  background-color: skyblue;
+	}
+
+	.dropdown-content a:hover {
+		background-color: orange;
+		color: white;
+	}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+/* end drpdown */
+
+/* product show */
+
+	.products{
+		float: left;
+		margin-left: 0.5%;
+		background-color: white;
+		margin-top: 2%;
+		padding-right: 87%;
+		padding-bottom: 30%;
+		padding-left: 15px;
+		padding-top: 10px;
+	}
+
+/* end product show */
+.container-3{
+		display: grid;
+		grid-template-columns: repeat(3, 400px);
+		grid-gap: 10px;
+		height: 400vh;
+		width: auto;
+	}
+.container-3 img{
+	width: 400px;
+	height: 400px;
+}
+
+#lightbox{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0, 0, 0, .8);
+	display: none;
+}
+
+#lightbox.active{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#lightbox img{
+	max-width: 90%;
+	max-height: 90%;
+	padding: 4px;
+	background-color: black;
+	border: 2px solid white;
+}
+
+</style>
+
